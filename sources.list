@@ -38,8 +38,4 @@ deb http://ftp.us.debian.org/debian/ jessie main non-free contrib
 #FreeIPA
 #deb git://anonscm.debian.org/pkg-freeipa/freeipa.git
 
-
-#Repositorios FreeIPA
-#deb http://apt.numeezy.fr jessie main
-#deb-src http://apt.numeezy.fr jessie main
 deb http://pkg.jenkins-ci.org/debian-stable binary/
