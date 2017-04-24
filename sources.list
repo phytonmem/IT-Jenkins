@@ -29,9 +29,7 @@ deb http://ftp.us.debian.org/debian/ jessie main non-free contrib
 #deb-src http://security.debian.org/ jessie/updates main contrib non-free
 
 ## Backports
-deb http://backports.debian.org/debian-backports jessie-backports main contrib non-free
-
-
+#deb http://backports.debian.org/debian-backports jessie-backports main contrib non-free
 
 ##Repositorio PDVSA PLC
 #deb http://167.175.55.106/debian/ jessie main non-free contrib
