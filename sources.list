@@ -1,0 +1,47 @@
+# 
+
+# deb cdrom:[Debian GNU/Linux 8.0.0 _Jessie_ - Official amd64 DVD Binary-1 20150425-12:54]/ jessie contrib main
+
+#deb cdrom:[Debian GNU/Linux 8.0.0 _Jessie_ - Official amd64 DVD Binary-1 20150425-12:54]/ jessie contrib main
+
+# Line commented out by installer because it failed to verify:
+deb http://security.debian.org/ jessie/updates main contrib
+# Line commented out by installer because it failed to verify:
+deb-src http://security.debian.org/ jessie/updates main contrib
+
+# jessie-updates, previously known as 'volatile'
+# A network mirror was not selected during install.  The following entries
+# are provided as examples, but you should amend them as appropriate
+# for your mirror of choice.
+#
+deb http://ftp.debian.org/debian/ jessie-updates main contrib non-free
+deb-src http://ftp.debian.org/debian/ jessie-updates main contrib
+
+
+## Debian – stable
+#deb http://mirror-01.cantv.net/debian/ jessie main contrib non-free
+#deb-src http://mirror-01.cantv.net/debian/ jessie main contrib non-free
+
+deb http://ftp.us.debian.org/debian/ jessie main non-free contrib
+
+## Actualizaciones de seguridad
+#deb http://security.debian.org/ jessie/updates main contrib non-free
+#deb-src http://security.debian.org/ jessie/updates main contrib non-free
+
+## Backports
+deb http://backports.debian.org/debian-backports jessie-backports main contrib non-free
+
+
+
+##Repositorio PDVSA PLC
+#deb http://167.175.55.106/debian/ jessie main non-free contrib
+#deb http://167.175.55.106/debian/ jessie-backports main contrib non-free
+
+#FreeIPA
+#deb git://anonscm.debian.org/pkg-freeipa/freeipa.git
+
+
+#Repositorios FreeIPA
+#deb http://apt.numeezy.fr jessie main
+#deb-src http://apt.numeezy.fr jessie main
+deb http://pkg.jenkins-ci.org/debian-stable binary/
